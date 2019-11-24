@@ -4,7 +4,11 @@ using System.Text;
 
 namespace GradeBook.GradeBooks
 {
-    class StandaradGradeBook
+    public class StandaradGradeBook : BaseGradeBook
     {
+        public StandaradGradeBook(string name) :base(name)
+        {
+            Type = Enums.GradeBookType.Standarad;
+        }
     }
 }
