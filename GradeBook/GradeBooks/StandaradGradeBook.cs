@@ -8,7 +8,7 @@ namespace GradeBook.GradeBooks
     {
         public StandaradGradeBook(string name) :base(name)
         {
-            Type = Enums.GradeBookType.Standarad;
+            Type = Enums.GradeBookType.Standard;
         }
     }
 }
